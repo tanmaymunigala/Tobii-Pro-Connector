@@ -1,0 +1,52 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "TobiiProConnector/1.0.0": {
+        "dependencies": {
+          "Tobii.Research.Addons": "1.0.0.0"
+        },
+        "runtime": {
+          "TobiiProConnector.dll": {}
+        }
+      },
+      "Tobii.Research.Addons/1.0.0.0": {
+        "runtime": {
+          "Tobii.Research.Addons.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Tobii.Research/1.8.0.1108": {
+        "runtime": {
+          "Tobii.Research.dll": {
+            "assemblyVersion": "1.8.0.1108",
+            "fileVersion": "1.8.0.1108"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TobiiProConnector/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Tobii.Research.Addons/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Tobii.Research/1.8.0.1108": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,43 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <Platforms>AnyCPU;x64;x86</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="..\..\LabRecorder\lsl.dll" Link="lsl.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Tobii.Research.x64" Version="1.8.0.1108" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="lsl_csharp">
+      <HintPath>..\..\liblsl-Csharp\bin\Debug\netstandard2.0\lsl_csharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Tobii.Research">
+      <HintPath>..\..\x64\Tobii.Research.dll</HintPath>
+    </Reference>
+    <Reference Include="Tobii.Research.Addons">
+      <HintPath>..\..\prosdk-addons-dotnet\source\Tobii.Research.Addons\bin\Debug\Tobii.Research.Addons.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="C:\Users\tanma\.nuget\packages\tobii.research.x64\1.8.0.1108\build\x64\tobii_firmware_upgrade.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="C:\Users\tanma\.nuget\packages\tobii.research.x64\1.8.0.1108\build\x64\tobii_pro.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

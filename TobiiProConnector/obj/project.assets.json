@@ -1,0 +1,99 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "Tobii.Research.x64/1.8.0.1108": {
+        "type": "package",
+        "build": {
+          "build/Tobii.Research.x64.targets": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Tobii.Research.x64/1.8.0.1108": {
+      "sha512": "T/oVc8Rc1IbpcDO+rTgEaKjxIGtQ2cNFgfcNk41blAUhDBKnWSk7fiLEo/0xC2vpVEyN57kWXwlImSRRzflP2A==",
+      "type": "package",
+      "path": "tobii.research.x64/1.8.0.1108",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/Tobii.Research.x64.targets",
+        "build/x64/tobii_firmware_upgrade.dll",
+        "build/x64/tobii_pro.dll",
+        "lib/net452/Tobii.Research.dll",
+        "lib/net452/Tobii.Research.xml",
+        "tobii.research.x64.1.8.0.1108.nupkg.sha512",
+        "tobii.research.x64.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "Tobii.Research.x64 >= 1.8.0.1108"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\tanma\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\tanma\\Web Projects\\Capstone\\TobiiProConnector\\TobiiProConnector\\TobiiProConnector.csproj",
+      "projectName": "TobiiProConnector",
+      "projectPath": "C:\\Users\\tanma\\Web Projects\\Capstone\\TobiiProConnector\\TobiiProConnector\\TobiiProConnector.csproj",
+      "packagesPath": "C:\\Users\\tanma\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\tanma\\Web Projects\\Capstone\\TobiiProConnector\\TobiiProConnector\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\tanma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "dependencies": {
+          "Tobii.Research.x64": {
+            "target": "Package",
+            "version": "[1.8.0.1108, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

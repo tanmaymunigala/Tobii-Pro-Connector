@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "UzsfQW943jSFTTNbjJLypnkXGT5SgyoqHwqN3XMr0PmgyfOA0XMj7vQP6hNYfsdYwvxxaedpdDwhrBXCFqOn3Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\tanma\\Web Projects\\Capstone\\TobiiProConnector\\TobiiProConnector\\TobiiProConnector.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\tanma\\.nuget\\packages\\tobii.research.x64\\1.8.0.1108\\tobii.research.x64.1.8.0.1108.nupkg.sha512"
+  ],
+  "logs": []
+}
